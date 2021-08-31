@@ -63,13 +63,17 @@ select {
 // }
 
 // Responsive breakpoints
-@media (max-width: 374.9px) {
+@media (max-width: 359.9px) {
   .action-bar .form-element {
     margin-top: 10px;
   }
 }
 
-@media (min-width: 375.9px) {
+@media (min-width: 360px) {
+  .action-bar .form-element {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
