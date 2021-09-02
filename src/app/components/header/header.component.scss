@@ -73,7 +73,13 @@
 // Responsive breakpoints
 @media (max-width: 374.9px) {
   .toolbar {
-    padding-inline: 0px;
+    padding-inline: 14px;
+  }
+  .toolbar .actions {
+    margin-left: 10px;
+  }
+  .actions .text {
+    display: none;
   }
   .toolbar .search {
     display: none;
