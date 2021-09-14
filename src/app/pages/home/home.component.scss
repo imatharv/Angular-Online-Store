@@ -45,6 +45,12 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .content {
+    padding-inline: 125px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .content {
     padding-inline: 184px;
   }
 }

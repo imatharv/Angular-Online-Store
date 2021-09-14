@@ -131,6 +131,16 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .toolbar {
+    padding-inline: 140px;
+  }
+  .toolbar .search {
+    width: 400px;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1400px) {
+  .toolbar {
     padding-inline: 160px;
   }
   .toolbar .search {

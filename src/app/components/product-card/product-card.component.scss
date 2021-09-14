@@ -184,6 +184,15 @@ h6 {
 @media (min-width: 1200px) {
   .card {
     height: 297px;
+    width: 221px;
+    margin: 16px;
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card {
+    height: 297px;
     width: 250px;
     margin: 16px;
     display: inline-flex;
