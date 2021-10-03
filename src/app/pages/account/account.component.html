@@ -1,0 +1,30 @@
+<div class="sign-page-content">
+    <div class="sign-content">
+        <div class="row justify-content-center align-items-center">
+            <div class="col image-card-wrapper">
+                <mat-card style="width: 265px; height: 345px" class="image-card">
+                    <div class="card-image-wrapper">
+                        <img width="205px" src="../../../assets/account.png" />
+                        <p>Online book shopping</p>
+                    </div>
+                </mat-card>
+            </div>
+            <div class="col">
+                <mat-card class="form-card">
+                    <div class="sign-form-wrapper">
+                        <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+                            <mat-tab class="tab" label="LOGIN">
+                                <div class="signin-form">
+                                    <app-signin></app-signin>
+                                </div>
+                            </mat-tab>
+                            <mat-tab class="tab" label="SIGNUP">
+                                <app-signup></app-signup>
+                            </mat-tab>
+                        </mat-tab-group>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

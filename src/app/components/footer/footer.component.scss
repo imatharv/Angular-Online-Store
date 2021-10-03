@@ -1,0 +1,58 @@
+.footer {
+  padding-inline: 120px;
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(63, 63, 63);
+  color: #eeeeee;
+  font-weight: 500;
+}
+.footer .footer-content {
+  font-size: 14px;
+}
+.footer .footer-content p {
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+// Responsive breakpoints
+@media (max-width: 374.9px) {
+  .footer {
+    padding-inline: 20px;
+  }
+}
+
+@media (min-width: 375.9px) {
+  .footer {
+    padding-inline: 40px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .footer {
+    padding-inline: 60px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .footer {
+    padding-inline: 80px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .footer {
+    padding-inline: 100px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .footer {
+    padding-inline: 120px;
+  }
+}

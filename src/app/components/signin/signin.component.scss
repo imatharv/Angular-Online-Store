@@ -1,0 +1,95 @@
+mat-label {
+  font-size: 13px !important;
+  display: block !important;
+  font-family: "Inter", sans-serif !important;
+}
+::ng-deep .mat-form-field {
+  font-size: 13px !important;
+  display: inline !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+::ng-deep
+  .mat-form-field:not(.mat-form-field-appearance-legacy)
+  .mat-form-field-prefix
+  .mat-icon-button,
+.mat-form-field:not(.mat-form-field-appearance-legacy)
+  .mat-form-field-suffix
+  .mat-icon-button {
+  font-size: 13px !important;
+  padding: 2px !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline,
+::ng-deep .mat-form-field-infix {
+  padding: 13px 0px 10px 0px !important;
+  border-top: none !important;
+}
+
+::ng-deep.mat-form-field-appearance-outline .mat-form-field-flex {
+  padding: 0 5px !important;
+  width: 100% !important;
+}
+
+::ng-deep.mat-form-field-wrapper {
+  padding-bottom: 0px !important;
+}
+
+::ng-deep.mat-form-field-appearance-outline .mat-form-field-wrapper {
+  margin: 0px 0px 10px !important;
+}
+
+::ng-deep.mat-focus-indicator .mat-icon-button .mat-button-base {
+  padding: 2px !important;
+  font-size: 10px !important;
+}
+
+::ng-deep.mat-button-ripple.mat-ripple {
+  display: none !important;
+}
+
+::ng-deep.mat-icon {
+  cursor: pointer !important;
+}
+
+.action-buttons-wrapper {
+  margin: 20px 0px;
+}
+
+.action-buttons-divider {
+  margin: 20px 0px;
+}
+
+::ng-deep.action-buttons-wrapper .login-button {
+  width: 100% !important;
+  font-weight: 500 !important;
+  border: 1px solid #dfdfdf;
+}
+
+::ng-deep.action-buttons-wrapper .facebook-button {
+  width: 48.5% !important;
+  font-weight: 500 !important;
+  background-color: #3779e0 !important;
+  color: #fff !important;
+}
+
+::ng-deep.action-buttons-wrapper .google-button {
+  width: 48.5% !important;
+  font-weight: 500 !important;
+  border: 1px solid #dfdfdf;
+}
+::ng-deep.mat-card .mat-divider-horizontal {
+  position: relative !important;
+  width: 30% !important;
+  vertical-align: baseline !important;
+  margin-top: 8px !important;
+  opacity: 0.4 !important;
+}
+::ng-deep.action-buttons-wrapper .action-buttons-divider span {
+  margin-inline: 10px !important;
+  opacity: 0.5 !important;
+  font-family: "Inter", sans-serif !important;
+}
+.social {
+  margin-top: 20px !important;
+}

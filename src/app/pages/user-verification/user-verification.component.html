@@ -1,0 +1,36 @@
+<div class="uv-toolbar" role="banner">
+    <mat-icon class="header-icon">
+        menu_book
+    </mat-icon>
+    <span class="title">Bookstore</span>
+</div>
+<div class="user-verification-cotainer">
+    <div class="uv-content">
+        <div class="card-container">
+            <h1>Verify your email address</h1>
+            <form [formGroup]="userVerificationForm" (ngSubmit)="verify()">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="user-verification-form-wrapper">
+                            <p>Enter the token you have received on the email address you have provided while
+                                registering.</p>
+                            <div class="form-element-group">
+                                <label>Token</label>
+                                <input class="form-element" formControlName="token" autocomplete="off" type="text"
+                                    placeholder="Token to very email address" />
+                            </div>
+                            <div class="action-buttons-wrapper">
+                                <button type="submit" mat-raised-button class="user-verification-button">Verify</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="user-verification-action-wrapper">
+                            <a class="action-link">LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

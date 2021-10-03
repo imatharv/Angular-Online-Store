@@ -1,0 +1,228 @@
+.sign-page-content {
+  background-color: #9d9d9d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #282c34;
+}
+
+.sign-page-link {
+  color: #1890ff;
+}
+
+/* SIGN WRAPPER */
+.sign-content {
+  max-width: unset;
+}
+
+.sign-content .sign-card-wrapper .form-card {
+  padding: unset 24px;
+}
+
+.sign-content .image-card {
+  background-color: #f5f5f5;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.sign-content .image-card img {
+  margin-left: 7px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.sign-content .image-card p {
+  text-align: center;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Inter", sans-serif !important;
+}
+
+::ng-deep .mat-tab-labels {
+  display: block !important;
+  margin-top: 20px;
+}
+
+::ng-deep .mat-tab-label {
+  display: inline-block !important;
+  min-width: 125px !important;
+  height: 40px !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+::ng-deep .mat-tab-label-active {
+  color: #000 !important;
+  border-bottom: 3px solid #a03037 !important;
+}
+
+// ::ng-deep.mat-tab-body-wrapper {
+//   margin-top: 40px !important;
+// }
+
+mat-label {
+  font-size: 13px !important;
+  display: block !important;
+  font-family: "Inter", sans-serif !important;
+}
+::ng-deep .mat-form-field {
+  font-size: 13px !important;
+  display: inline !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+::ng-deep
+  .mat-form-field:not(.mat-form-field-appearance-legacy)
+  .mat-form-field-prefix
+  .mat-icon-button,
+.mat-form-field:not(.mat-form-field-appearance-legacy)
+  .mat-form-field-suffix
+  .mat-icon-button {
+  font-size: 13px !important;
+  padding: 2px !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline,
+::ng-deep .mat-form-field-infix {
+  padding: 13px 0px 10px 0px !important;
+  border-top: none !important;
+}
+
+::ng-deep.mat-form-field-appearance-outline .mat-form-field-flex {
+  padding: 0 5px !important;
+  width: 100% !important;
+}
+
+::ng-deep.mat-form-field-wrapper {
+  padding-bottom: 0px !important;
+}
+
+::ng-deep.mat-form-field-appearance-outline .mat-form-field-wrapper {
+  margin: 0px 0px 10px !important;
+}
+
+::ng-deep.mat-focus-indicator .mat-icon-button .mat-button-base {
+  padding: 2px !important;
+  font-size: 10px !important;
+}
+
+::ng-deep.mat-button-ripple.mat-ripple {
+  display: none !important;
+}
+
+::ng-deep.mat-icon {
+  cursor: pointer !important;
+}
+
+.action-buttons-wrapper {
+  margin: 20px 0px;
+}
+
+.action-buttons-divider {
+  margin: 20px 0px;
+}
+
+::ng-deep.action-buttons-wrapper .login-button {
+  width: 100% !important;
+  font-weight: 500 !important;
+  background-color: #a03037;
+  color: #fff;
+}
+
+::ng-deep.action-buttons-wrapper .facebook-button {
+  width: 48.5% !important;
+  font-weight: 500 !important;
+  background-color: #3779e0 !important;
+  color: #fff !important;
+}
+
+::ng-deep.action-buttons-wrapper .google-button {
+  width: 48.5% !important;
+  font-weight: 500 !important;
+  border: 1px solid #dfdfdf;
+}
+
+::ng-deep.mat-card .mat-divider-horizontal {
+  position: relative !important;
+  width: 30% !important;
+  vertical-align: baseline !important;
+  margin-top: 8px !important;
+  opacity: 0.4 !important;
+}
+
+::ng-deep.action-buttons-wrapper .action-buttons-divider span {
+  margin-inline: 10px !important;
+  opacity: 0.5 !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.social {
+  margin-top: 20px !important;
+}
+
+.sign-content .form-card {
+  background-color: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0rem 0.5rem 1rem rgba(39, 35, 35, 0.15);
+  border-radius: 5px;
+}
+
+.sign-content .sign-card-wrapper .action-button-wrapper {
+  margin-bottom: 16px;
+}
+
+.sign-content .sign-card-wrapper .signup-button,
+.signin-button {
+  font-weight: 700 !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  text-transform: uppercase;
+}
+
+.sign-content .sign-card-wrapper .action-button-wrapper .button-bottom-border {
+  margin-inline: auto;
+  height: 3px;
+  width: 30px;
+  border-radius: 4px;
+  background-color: #a03037;
+  border: none;
+  box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.sign-form-wrapper {
+  padding: 0px 20px;
+}
+
+.signin-form {
+  margin-top: 30px !important;
+}
+
+.form-card {
+  width: 300px;
+  height: 425px;
+}
+
+@media (max-width: 575.98px) {
+  .image-card-wrapper {
+    display: none !important;
+  }
+  .sign-content .form-card {
+    width: 300px;
+    height: 425px;
+    border: 0;
+    box-shadow: none;
+  }
+  .sign-page-content {
+    background-color: #fff;
+  }
+}

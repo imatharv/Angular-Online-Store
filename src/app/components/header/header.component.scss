@@ -1,0 +1,134 @@
+@use "~@angular/material" as mat;
+@include mat.core();
+
+.toolbar {
+  padding-inline: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #a03037;
+  font-weight: 500;
+}
+
+.toolbar .header-icon {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 32px;
+  height: 35px !important;
+  width: 28px !important;
+}
+
+.toolbar .title {
+  font-size: 16px;
+  margin-left: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.toolbar .search {
+  width: 500px;
+}
+
+.toolbar .actions-wrapper {
+  display: inline;
+}
+
+.toolbar .actions {
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: opacity 0.3s;
+}
+
+.toolbar #profile-logo {
+  height: 18px;
+  width: 18px;
+  font-size: 19px;
+  margin-bottom: 2px;
+  margin-inline: auto;
+  display: block;
+}
+
+.toolbar #cart-logo {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+  margin-bottom: 2px;
+  margin-inline: auto;
+  display: block;
+}
+
+.toolbar .actions:hover {
+  opacity: 1;
+}
+
+// Responsive breakpoints
+@media (max-width: 374.9px) {
+  .toolbar {
+    padding-inline: 20px;
+  }
+  .toolbar .search {
+    display: none;
+  }
+}
+
+@media (min-width: 375.9px) {
+  .toolbar {
+    padding-inline: 40px;
+  }
+  .toolbar .search {
+    display: none;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .toolbar {
+    padding-inline: 60px;
+  }
+  .toolbar .search {
+    width: 100px;
+    display: inline-block;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .toolbar {
+    padding-inline: 80px;
+  }
+  .toolbar .search {
+    width: 200px;
+    display: inline-block;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .toolbar {
+    padding-inline: 100px;
+  }
+  .toolbar .search {
+    width: 300px;
+    display: inline-block;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .toolbar {
+    padding-inline: 120px;
+  }
+  .toolbar .search {
+    width: 400px;
+    display: inline-block;
+  }
+}

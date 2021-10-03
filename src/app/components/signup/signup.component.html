@@ -1,0 +1,32 @@
+<form [formGroup]="signupForm" (ngSubmit)="signup()">
+    <div class="form-element-group">
+        <mat-label>Full name</mat-label>
+        <mat-form-field appearance="outline">
+            <input matInput formControlName="fullName" autocomplete="off" type="text" />
+        </mat-form-field>
+    </div>
+    <div class="form-element-group">
+        <mat-label>Email</mat-label>
+        <mat-form-field appearance="outline">
+            <input matInput formControlName="email" autocomplete="off" type="email" />
+        </mat-form-field>
+    </div>
+    <div class="form-element-group">
+        <mat-label>Password</mat-label>
+        <mat-form-field appearance="outline">
+            <input matInput formControlName="password" [type]="hide ? 'password' : 'text'" autocomplete="off" />
+            <mat-icon (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" matSuffix>
+                {{hide
+                ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="form-element-group">
+        <mat-label>Phone number</mat-label>
+        <mat-form-field appearance="outline">
+            <input matInput formControlName="phoneNumber" autocomplete="off" type="number" />
+        </mat-form-field>
+    </div>
+    <div class="action-buttons-wrapper">
+        <button type="submit" mat-raised-button class="signup-button">Signup</button>
+    </div>
+</form>
