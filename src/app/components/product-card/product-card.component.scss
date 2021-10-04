@@ -135,7 +135,7 @@ h6 {
 @media (max-width: 374.9px) {
   .card {
     height: 297px;
-    width: 250px;
+    width: 90%;
     margin: 16px;
     display: inline-flex;
   }
@@ -144,7 +144,7 @@ h6 {
 @media (min-width: 375.9px) {
   .card {
     height: 297px;
-    width: 250px;
+    width: 210px;
     margin: 16px;
     display: inline-flex;
   }
@@ -164,7 +164,7 @@ h6 {
 @media (min-width: 768px) {
   .card {
     height: 297px;
-    width: 250px;
+    width: 280px;
     margin: 16px;
     display: inline-flex;
   }
@@ -172,14 +172,20 @@ h6 {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .content {
-    padding-inline: 84px;
+  .card {
+    height: 297px;
+    width: 249px;
+    margin: 16px;
+    display: inline-flex;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .content {
-    padding-inline: 184px;
+  .card {
+    height: 297px;
+    width: 250px;
+    margin: 16px;
+    display: inline-flex;
   }
 }
