@@ -73,7 +73,7 @@
 // Responsive breakpoints
 @media (max-width: 374.9px) {
   .toolbar {
-    padding-inline: 20px;
+    padding-inline: 0px;
   }
   .toolbar .search {
     display: none;
@@ -103,7 +103,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .toolbar {
-    padding-inline: 0px;
+    padding-inline: 80px;
   }
   .toolbar .search {
     width: 200px;
