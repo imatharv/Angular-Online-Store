@@ -12,7 +12,7 @@
 }
 
 .action-bar .form-element {
-  margin-top: -2px !important;
+  margin-top: -2px;
   display: block;
   width: 100%;
   max-width: 302px;
@@ -64,6 +64,9 @@ select {
 
 // Responsive breakpoints
 @media (max-width: 374.9px) {
+  .action-bar .form-element {
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 375.9px) {
