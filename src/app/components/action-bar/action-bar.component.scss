@@ -59,12 +59,6 @@ select {
 // }
 // Responsive breakpoints
 @media (max-width: 374.9px) {
-  .card {
-    height: 297px;
-    width: 90%;
-    margin: 16px;
-    display: inline-flex;
-  }
 }
 
 @media (min-width: 375.9px) {
