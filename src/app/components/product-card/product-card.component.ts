@@ -14,6 +14,14 @@ export class ProductCardComponent implements OnInit {
   products: Array<any> = [];
   product: any
 
+  getAllProducts() {
+    this.service.getProducts().subscribe((data:any) => {
+      this.products = data["result"];
+      this.totalProducts = this.products.length
+      console.log(this.products);
+    });
+  }
+
   ngOnInit(): void {
     this.service.getProducts().subscribe((data:any) => {
       this.products = data["result"];
