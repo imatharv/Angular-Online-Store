@@ -23,7 +23,7 @@ export class ProductCardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    
+    this.getAllProducts();
   }
 
 }
