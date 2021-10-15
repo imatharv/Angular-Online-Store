@@ -22,6 +22,8 @@ export class ProductCardComponent implements OnInit {
     });
   }
 
+  productDetails(product:any) {}
+
   ngOnInit(): void {
     this.getAllProducts();
   }
