@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ProductServiceService } from '../../services/productService/product-service.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { ProductServiceService } from '../../services/productService/product-ser
 })
 export class ProductCardComponent implements OnInit {
   
-  constructor( private service: ProductServiceService ) { }
+  constructor( private service: ProductServiceService, private router: Router ) { }
   
   totalProducts: any = 0;
   products: Array<any> = [];
@@ -22,7 +23,10 @@ export class ProductCardComponent implements OnInit {
     });
   }
 
-  productDetails(product:any) {}
+  productDetails(product:any) {
+    this.product = product
+    this.router.navigate(["/home/product"], { state: { data: product } })
+  }
 
   ngOnInit(): void {
     this.getAllProducts();
