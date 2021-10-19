@@ -1,25 +1,27 @@
-
-<div class="card">
-    <div class="card-cover">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/81oMmuC9HOL.jpg" alt="Book cover" />
-    </div>
-    <div class="card-body">
-        <div class="product-title">
-            <h3>India Midnight to Millennium</h3>
+<div class="card-container">
+    <div class="card" *ngFor="let product of products">
+        <div class="card-cover">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81oMmuC9HOL.jpg" alt="Book cover" />
         </div>
-        <div class="product-author">
-            <h4>Shashi Tharoor</h4>
-        </div>
-        <div class="rating-wrapper">
-            <div class="badge">
-                4.3
-                <mat-icon class="rating-icon">star_rate</mat-icon>
+        <div class="card-body">
+            <div class="product-title">
+                <h3>{{ product.bookName }}</h3>
             </div>
-            <span class="rating-count">(15)</span>
-        </div>
-        <div class="price-wrapper">
-            <span class="discounted-price">318.00</span>
-            <span class="real-price">399.00</span>
+            <div class="product-author">
+                <h4>{{ product.author }}</h4>
+            </div>
+            <div class="rating-wrapper">
+                <div class="badge">
+                    4.3
+                    <mat-icon class="rating-icon">star_rate</mat-icon>
+                </div>
+                <span class="rating-count">(15)</span>
+            </div>
+            <div class="price-wrapper">
+                <span class="discounted-price">{{ product.discountPrice }}</span>
+                <span class="real-price">{{ product.price }}</span>
+            </div>
         </div>
     </div>
 </div>
+

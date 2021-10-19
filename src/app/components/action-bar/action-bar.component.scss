@@ -12,7 +12,7 @@
   display: block;
   width: 100%;
   max-width: 302px;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem 3rem 0.375rem 0.75rem;
   font-size: 1rem !important;
   line-height: 1.5;
   color: #495057;
@@ -23,11 +23,18 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   font-weight: 500;
   cursor: pointer;
-  // -webkit-box-sizing: border-box;
-  // -moz-box-sizing: border-box;
-  // box-sizing: border-box;
-  // -webkit-appearance: none;
-  // -moz-appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select {
+  background: #f7f7f7
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTEzLjQxOCA3Ljg1OWEuNjk1LjY5NSAwIDAxLjk3OCAwIC42OC42OCAwIDAxMCAuOTY5bC0zLjkwOCAzLjgzYS42OTcuNjk3IDAgMDEtLjk3OSAwbC0zLjkwOC0zLjgzYS42OC42OCAwIDAxMC0uOTY5LjY5NS42OTUgMCAwMS45NzggMEwxMCAxMWwzLjQxOC0zLjE0MXoiLz48L3N2Zz4=)
+    right 10px center no-repeat;
+  background-size: 22px;
 }
 
 // select {
