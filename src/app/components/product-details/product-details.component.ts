@@ -8,7 +8,11 @@ import { Router } from '@angular/router';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  constructor( private router: Router ) {}
+  product: any;
+
+  constructor( private router: Router ) {
+    this.product = this.router.getCurrentNavigation()?.extras.state;
+  }
 
   ngOnInit(): void {
   }
