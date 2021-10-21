@@ -12,6 +12,7 @@ export class ProductDetailsComponent implements OnInit {
 
   constructor( private router: Router ) {
     this.product = this.router.getCurrentNavigation()?.extras.state;
+    (this.product)
   }
 
   ngOnInit(): void {
