@@ -13,7 +13,7 @@
   border-radius: 8px;
   border: 2px solid #e2e2e2;
   height: 297px;
-  width: 226px;
+  width: 250px;
   margin: 16px;
   display: inline-flex;
   flex: 0 0 auto;
@@ -129,4 +129,48 @@ h6 {
 
 .price-wrapper .real-price::before {
   content: "₹";
+}
+
+// Responsive breakpoints
+@media (max-width: 374.9px) {
+  .card {
+    height: 297px;
+    width: 250px;
+    margin: 16px;
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 375.9px) {
+  .content {
+    padding-inline: 24px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .content {
+    padding-inline: 44px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .content {
+    padding-inline: 64px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .content {
+    padding-inline: 84px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .content {
+    padding-inline: 184px;
+  }
 }

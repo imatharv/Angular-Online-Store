@@ -2,7 +2,7 @@
 @include mat.core();
 
 .toolbar {
-  padding-inline: 120px;
+  padding-inline: 160px;
   position: absolute;
   top: 0;
   left: 0;
@@ -114,7 +114,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .toolbar {
-    padding-inline: 100px;
+    padding-inline: 120px;
   }
   .toolbar .search {
     width: 300px;
@@ -125,7 +125,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .toolbar {
-    padding-inline: 120px;
+    padding-inline: 160px;
   }
   .toolbar .search {
     width: 400px;

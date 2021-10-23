@@ -1,8 +1,49 @@
 .content {
   margin: 100px 0px;
-  padding-inline: 104px;
+  padding-inline: 184px;
 }
 
 ::ng-deep .card-container .card:hover {
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+// Responsive breakpoints
+@media (max-width: 374.9px) {
+  .content {
+    padding-inline: 4px;
+  }
+}
+
+@media (min-width: 375.9px) {
+  .content {
+    padding-inline: 24px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .content {
+    padding-inline: 44px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .content {
+    padding-inline: 64px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .content {
+    padding-inline: 84px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .content {
+    padding-inline: 184px;
+  }
 }

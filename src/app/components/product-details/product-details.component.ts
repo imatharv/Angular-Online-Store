@@ -15,7 +15,11 @@ export class ProductDetailsComponent implements OnInit {
     (this.product)
   }
 
-  ngOnInit(): void {
+  getData = () =>{
+    this.product = this.product['data']
   }
 
+  ngOnInit(): void {
+    this.getData()
+  }
 }
