@@ -142,8 +142,11 @@ h6 {
 }
 
 @media (min-width: 375.9px) {
-  .content {
-    padding-inline: 24px;
+  .card {
+    height: 297px;
+    width: 250px;
+    margin: 16px;
+    display: inline-flex;
   }
 }
 
