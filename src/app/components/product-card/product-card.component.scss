@@ -162,8 +162,11 @@ h6 {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .content {
-    padding-inline: 64px;
+  .card {
+    height: 297px;
+    width: 250px;
+    margin: 16px;
+    display: inline-flex;
   }
 }
 
